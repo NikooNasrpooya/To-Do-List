@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+.container{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    min-width: 300px;
+    
+}
+.to-do-list{
+    color:blue;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.search{
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.list{
+    text-align: left;
+    padding: 0px;
+}
+
+.list .list-item{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+   
+
+}
+.delete-btn{
+    color: white;
+    background-color: rgb(37, 157, 209);
+    border-radius: 3px;
+    border: 0px;
+    padding: 0px 3px;
+}
+.delete-btn:hover{
+    cursor: pointer;
+    background-color: rgb(84, 144, 212);
+}
+
+.add-items{
+    display: flex;
+}
+
+.add-items .add-button{
+    color: rgb(13, 73, 193);
+    background-color: white;
+    border-color: blue;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.add-items .add-button:hover{
+    cursor: pointer;
+    background-color: rgb(84, 144, 212);
+}
+.add-items  .add-item{
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
